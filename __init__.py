@@ -26,3 +26,8 @@ def raspberryPiPDF():
 @app.route('/PiPic')
 def piPic():
     return render_template('piPic.html')
+
+@app.route('/downloadCV')
+def download_CV():
+    file_path = 'files/CV.txt'  
+    return send_file(file_path, as_attachment=True)
