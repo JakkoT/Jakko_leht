@@ -12,7 +12,7 @@ def test():
 
 @app.route('/download')
 def download_file():
-    file_path = 'files/test.txt'  # Replace with the actual path to your file
+    file_path = 'files/test.txt'  
     return send_file(file_path, as_attachment=True)
 
 @app.route('/raspberry')
@@ -22,3 +22,7 @@ def raspberry():
 @app.route('/PiPDF')
 def raspberryPiPDF():
     return render_template('downloadPiPDF.html')
+
+@app.route('/PiPic')
+def piPic():
+    return render_template('piPic.html')
