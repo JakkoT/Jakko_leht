@@ -15,6 +15,6 @@ def download_file():
     file_path = 'files/test.txt'  # Replace with the actual path to your file
     return send_file(file_path, as_attachment=True)
 
-@app.route('/')
+@app.route('/d')
 def index():
     return render_template('download.html')
