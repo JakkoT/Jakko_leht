@@ -15,6 +15,10 @@ def download_file():
     file_path = 'files/test.txt'  # Replace with the actual path to your file
     return send_file(file_path, as_attachment=True)
 
-@app.route('/d')
-def index():
+@app.route('/raspberry')
+def raspberry():
     return render_template('raspberry.html')
+
+@app.route('/PiPDF')
+def raspberryPiPDF():
+    return render_template('downloadPiPDF.html')
