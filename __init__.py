@@ -1,6 +1,6 @@
 
 from markupsafe import escape
-from flask import Flask, abort, render_template, send_file
+from flask import Flask, abort, render_template, send_file, url_for, redirect
 
 
 
@@ -17,8 +17,8 @@ def download_file():
 
 @app.route('/raspberry')
 def raspberry():
-    return render_template('raspberry.html')
+    return redirect(url_for('raspberry.html'))
 
 @app.route('/PiPDF')
 def raspberryPiPDF():
-    return render_template('downloadPiPDF.html')
+    return redirect(url_for('downloadPiPDF.html'))
