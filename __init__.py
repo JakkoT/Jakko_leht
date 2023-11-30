@@ -17,4 +17,4 @@ def download_file():
 
 @app.route('/d')
 def index():
-    return render_template('download.html')
+    return render_template('raspberry.html')
