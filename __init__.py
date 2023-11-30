@@ -17,8 +17,8 @@ def download_file():
 
 @app.route('/raspberry')
 def raspberry():
-    return redirect(url_for('raspberry.html'))
+    return render_template('raspberry.html')
 
 @app.route('/PiPDF')
 def raspberryPiPDF():
-    return redirect(url_for('downloadPiPDF.html'))
+    return render_template('downloadPiPDF.html')
