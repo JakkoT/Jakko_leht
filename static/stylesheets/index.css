@@ -23,7 +23,10 @@ nav ul {
     overflow: hidden;
 }
 
-
+nav li {
+    float: left;
+    align-self: auto;
+}
 
 nav a {
     display: block;
