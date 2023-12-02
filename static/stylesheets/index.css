@@ -27,7 +27,7 @@ nav li {
     float: left;
 }
 nav img {
-    display: inline-block;
+    float: inline-end;
 }
 
 nav a {
