@@ -81,10 +81,3 @@ footer {
     background-color: #555; /* Darker green on hover */
     color: #fff; /* White text on hover */
 }
-
-.Pi {
-    width: 50px;
-    height: auto;
-    align-self: center;
-    float: right;
-}
