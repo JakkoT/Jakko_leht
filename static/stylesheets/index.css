@@ -26,9 +26,6 @@ nav ul {
 nav li {
     float: left;
 }
-nav li img {
-    float: inline-end;
-}
 
 nav a {
     display: block;
@@ -36,6 +33,10 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+a img {
+    float: inline-end;
+    align-self: center;
 }
 
 nav a:hover {
