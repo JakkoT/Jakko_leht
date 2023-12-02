@@ -85,4 +85,6 @@ footer {
 .Pi {
     width: 50px;
     height: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
