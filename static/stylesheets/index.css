@@ -34,10 +34,6 @@ nav a {
     padding: 14px 16px;
     text-decoration: none;
 }
-a img {
-    float: inline-end;
-    align-self: center;
-}
 
 nav a:hover {
     background-color: #555;
