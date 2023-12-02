@@ -26,9 +26,6 @@ nav ul {
 nav li {
     float: left;
 }
-li {
-    text-align: left;
-}
 
 nav a {
     display: block;
