@@ -26,7 +26,7 @@ nav ul {
 nav li {
     float: left;
 }
-nav img {
+nav li img {
     float: inline-end;
 }
 
