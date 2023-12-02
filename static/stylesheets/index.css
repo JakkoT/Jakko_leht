@@ -26,9 +26,7 @@ nav ul {
 nav li {
     float: left;
 }
-nav img {
-    align-self: center;
-}
+
 nav a {
     display: block;
     color: white;
@@ -88,4 +86,5 @@ footer {
     width: 50px;
     height: auto;
     align-self: center;
+    float: right;
 }
