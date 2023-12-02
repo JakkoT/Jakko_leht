@@ -24,7 +24,8 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: left
+    display: inline-block;;
 }
 
 nav a {
@@ -85,6 +86,5 @@ footer {
 .Pi {
     width: 50px;
     height: auto;
-    display: inline-block;
     vertical-align: middle;
 }
