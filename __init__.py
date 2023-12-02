@@ -35,3 +35,7 @@ def download_CV():
 @app.route('/kontakt')
 def kontakt():
      return render_template('kontakt.html')
+
+@app.route('/minust')
+def minust():
+     return render_template('minust.html')
