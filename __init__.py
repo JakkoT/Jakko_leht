@@ -31,3 +31,7 @@ def piPic():
 def download_CV():
     file_path = 'files/CV.txt'  
     return send_file(file_path, as_attachment=True)
+
+@app.route('/kontakt')
+def kontakt():
+     return render_template('kontakt.html')
