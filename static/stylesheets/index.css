@@ -64,6 +64,7 @@ footer {
     background-color: #333;
     color: white;
     margin-top: auto;
+    width: 100%;
 }
 
 .DButton {
@@ -85,8 +86,4 @@ footer {
 .DButton:hover {
     background-color: #555; /* Darker green on hover */
     color: #fff; /* White text on hover */
-}
-
-.lisa {
-    flex: 1;
 }
