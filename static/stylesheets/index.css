@@ -43,10 +43,10 @@ nav a:hover {
 .main-content {
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 20px;
     flex: 1;
-    align-self: stretch;
+    align-items: stretch;
 }
 
 article {
