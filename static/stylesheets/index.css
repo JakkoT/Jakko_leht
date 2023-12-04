@@ -47,7 +47,7 @@ nav a:hover {
     flex-wrap: wrap;
     padding: 20px;
     flex: 1;
-    min-height: calc(100vh - 120px);
+
 
 }
 
@@ -91,8 +91,4 @@ footer {
 .DButton:hover {
     background-color: #555; /* Darker green on hover */
     color: #fff; /* White text on hover */
-}
-
-.pad {
-    padding: 10%;
 }
