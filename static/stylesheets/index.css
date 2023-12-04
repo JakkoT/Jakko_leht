@@ -89,3 +89,7 @@ footer {
     background-color: #555; /* Darker green on hover */
     color: #fff; /* White text on hover */
 }
+
+.pad {
+    padding: 10%;
+}
