@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    min-height: 100vh;
 }
 
 header {
@@ -45,7 +46,7 @@ nav a:hover {
     flex-wrap: nowrap;
     padding: 20px;
     flex: 1;
-    align-self: stretch; /* Add this line */
+    align-self: stretch;
 }
 
 article {
