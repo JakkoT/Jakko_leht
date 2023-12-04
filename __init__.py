@@ -39,3 +39,7 @@ def kontakt():
 @app.route('/minust')
 def minust():
      return render_template('minust.html')
+
+@app.route('/oskused')
+def oskused():
+     return render_template('oskused.html')
