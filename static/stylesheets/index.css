@@ -45,7 +45,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    flex: 1;
+
     align-items: stretch;
 }
 
