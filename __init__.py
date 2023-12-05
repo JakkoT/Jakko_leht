@@ -43,3 +43,6 @@ def minust():
 @app.route('/oskused')
 def oskused():
      return render_template('oskused.html')
+
+if __name__ == "__main__":
+     app.run(ssl_context="adhoc")
