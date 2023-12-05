@@ -44,5 +44,9 @@ def minust():
 def oskused():
      return render_template('oskused.html')
 
+@app.route('/aivo')
+def aivo():
+     return render_template('test.html')
+
 if __name__ == "__main__":
      app.run(ssl_context="adhoc")
