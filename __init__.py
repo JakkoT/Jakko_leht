@@ -48,5 +48,9 @@ def oskused():
 def aivo():
      return render_template('test.html')
 
+@app.route('/proge')
+def proge():
+     return render_template('test2.html')
+
 if __name__ == "__main__":
      app.run(ssl_context="adhoc")
