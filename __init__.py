@@ -12,7 +12,7 @@ def test():
 
 @app.route('/download')
 def download_file():
-    file_path = 'files/test.txt'  
+    file_path = 'files/my-cv.pdf'  
     return send_file(file_path, as_attachment=True)
 
 @app.route('/raspberry')
@@ -29,7 +29,7 @@ def piPic():
 
 @app.route('/downloadCV')
 def download_CV():
-    file_path = 'files/CV.txt'  
+    file_path = 'files/my-cv.pdf'  
     return send_file(file_path, as_attachment=True)
 
 @app.route('/kontakt')
@@ -44,9 +44,9 @@ def minust():
 def oskused():
      return render_template('oskused.html')
 
-@app.route('/aivo')
-def aivo():
-     return render_template('test.html')
+#@app.route('/aivo')
+#def aivo():
+     #return render_template('test.html')
 
 @app.route('/proge')
 def proge():
